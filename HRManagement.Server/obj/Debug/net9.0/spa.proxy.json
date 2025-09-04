@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:51915",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "D:\\HRManagement\\HRManagement.Server\\..\\hrmanagement.client",
+"WorkingDirectory": "D:\\Project\\HRManagement.Server\\..\\hrmanagement.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }
