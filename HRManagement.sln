@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "hrmanagement.client", "hrmanagement.client\hrmanagement.client.esproj", "{DE941DAA-FA22-6ABE-9FB9-C63DB748BF3B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRManagement.Server", "HRManagement.Server\HRManagement.Server.csproj", "{B9F97526-08A5-4C34-A29D-817E94409A66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogicLayer", "BusinessLogicLayer\BusinessLogicLayer.csproj", "{9C176831-3924-4B9C-8380-9C708DA2CA32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{B9F97526-08A5-4C34-A29D-817E94409A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9F97526-08A5-4C34-A29D-817E94409A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9F97526-08A5-4C34-A29D-817E94409A66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C176831-3924-4B9C-8380-9C708DA2CA32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C176831-3924-4B9C-8380-9C708DA2CA32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C176831-3924-4B9C-8380-9C708DA2CA32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C176831-3924-4B9C-8380-9C708DA2CA32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
