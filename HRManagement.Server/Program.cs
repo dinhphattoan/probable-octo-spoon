@@ -12,7 +12,7 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-:
+
 builder.Services.AddScoped<IGenericRepository<Employee>, GenericRepository<Employee>>();
 builder.Services.AddScoped<IGenericRepository<JobPoster>, GenericRepository<JobPoster>>();
 builder.Services.AddScoped<IGenericRepository<NewApplicant>, GenericRepository<NewApplicant>>();
