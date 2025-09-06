@@ -1,4 +1,5 @@
-﻿using HRMagnement.Server.Models;
+﻿using HRMagnement.Server.Data;
+using HRMagnement.Server.Models;
 using HRManagement.Server.Repositories.Base;
 using Microsoft.EntityFrameworkCore;
 
@@ -6,7 +7,7 @@ namespace HRManagement.Server.Repositories
 {
     public class EmployeeRepository : GenericRepository<Employee>
     {
-        public EmployeeRepository(DbContext context) : base(context)
+        public EmployeeRepository(ApplicationDbContext context) : base(context)
         {
             
 
