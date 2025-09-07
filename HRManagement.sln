@@ -7,9 +7,9 @@ Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "HRmanagement.client", "hrma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRManagement.Server", "HRManagement.Server\HRManagement.Server.csproj", "{B9F97526-08A5-4C34-A29D-817E94409A66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRManagement.BusinessLogic", "BusinessLogicLayer\HRManagement.BusinessLogic.csproj", "{9C176831-3924-4B9C-8380-9C708DA2CA32}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRManagement.BusinessLogic", "HRManagement.BusinessLogic\HRManagement.BusinessLogic.csproj", "{9C176831-3924-4B9C-8380-9C708DA2CA32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRManagement.DataAccess", "DataAccessLayer\HRManagement.DataAccess.csproj", "{76E0F055-E3B0-47DE-8ECA-567FABADC544}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRManagement.DataAccess", "HRManagement.DataAccess\HRManagement.DataAccess.csproj", "{76E0F055-E3B0-47DE-8ECA-567FABADC544}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRManagement.Contacts", "HRManagement.Contact\HRManagement.Contacts.csproj", "{A7C148FB-EE0E-4F20-90FC-8DD8682BAED1}"
 EndProject
