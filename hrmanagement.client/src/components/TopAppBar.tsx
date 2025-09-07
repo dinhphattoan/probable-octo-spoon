@@ -13,6 +13,7 @@ const TopAppBar: React.FC<TopAppBarProps> = ({ children }) => {
             position="fixed"
             sx={{
                 width: { sm: `calc(100% - ${drawerWidth}px)` },
+                height: BASE_PAGE_LAYOUT.TOPAPPBAR_HEIGHT,
                 ml: { sm: `${drawerWidth}px` },
             }}
         >

@@ -6,5 +6,5 @@ export const BASE_PAGE_LAYOUT = {
     FOOTER_HEIGHT: 48, // px, height of the footer
     CONTENT_PADDING: 24, // px, default content padding
     BREAKPOINT: 1024, // px, layout breakpoint for responsive design
-    
+    TOPAPPBAR_HEIGHT: 64, // px, height of the top app bar
 };
