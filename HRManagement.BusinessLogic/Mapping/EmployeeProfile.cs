@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
-using BusinessLogicLayer.DTOs;
-using HRMagnement.Models;
-
+using HRManagement.BussinessLogic.DTOs;
+using HRManagement.Models;
 namespace HRManagement.BussinessLogic.Mapping;
 
 public sealed class EmployeeProfile : Profile

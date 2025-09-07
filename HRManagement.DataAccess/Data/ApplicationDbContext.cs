@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using HRMagnement.Models;
+using HRManagement.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace HRMagnement.DataAccess.Data
+namespace HRManagement.DataAccess.Data
 {
     public class ApplicationDbContext : DbContext
     {

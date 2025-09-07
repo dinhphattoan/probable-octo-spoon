@@ -1,7 +1,7 @@
-using Microsoft.EntityFrameworkCore;
-using HRMagnement.Server.Data;
-using HRManagement.Contacts.Services;
 using HRManagement.BussinessLogic.Services;
+using HRManagement.DataAccess.Data;
+using HRManagement.DataAccess.Repositories;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,16 +12,16 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-
 // Automapper
 builder.Services.AddAutoMapper(typeof(HRManagement.BussinessLogic.Mapping.EmployeeProfile).Assembly);
 
 // Business logic services
-builder.Services.AddScoped<IEmployeeService, EmployeeService>();
+builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+builder.Services.AddScoped<IEmployeeService,EmployeeService>();
+
 
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
-
 
 var app = builder.Build();
 

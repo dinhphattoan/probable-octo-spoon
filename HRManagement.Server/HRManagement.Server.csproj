@@ -26,14 +26,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BusinessLogicLayer\HRManagement.BusinessLogic.csproj" />
-    <ProjectReference Include="..\hrmanagement.client\HRmanagement.client.esproj">
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="..\HRManagement.Contact\HRManagement.Contacts.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\HRManagement.BusinessLogic\HRManagement.BusinessLogic.csproj" />
+    <ProjectReference Include="..\hrmanagement.client\HRmanagement.client.esproj" />
+    <ProjectReference Include="..\HRManagement.DataAccess\HRManagement.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

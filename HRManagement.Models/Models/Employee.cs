@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 //Hired Employee class
 
-namespace HRMagnement.Models
+namespace HRManagement.Models
 {
     public class Employee
     {

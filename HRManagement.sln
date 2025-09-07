@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRManagement.BusinessLogic"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRManagement.DataAccess", "HRManagement.DataAccess\HRManagement.DataAccess.csproj", "{76E0F055-E3B0-47DE-8ECA-567FABADC544}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRManagement.Contacts", "HRManagement.Contact\HRManagement.Contacts.csproj", "{A7C148FB-EE0E-4F20-90FC-8DD8682BAED1}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRManagement.Models", "HRManagement.Models\HRManagement.Models.csproj", "{CDE1C792-FE03-4B0A-8846-EB2940295C38}"
 EndProject
 Global
@@ -39,10 +37,6 @@ Global
 		{76E0F055-E3B0-47DE-8ECA-567FABADC544}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76E0F055-E3B0-47DE-8ECA-567FABADC544}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76E0F055-E3B0-47DE-8ECA-567FABADC544}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A7C148FB-EE0E-4F20-90FC-8DD8682BAED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A7C148FB-EE0E-4F20-90FC-8DD8682BAED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A7C148FB-EE0E-4F20-90FC-8DD8682BAED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A7C148FB-EE0E-4F20-90FC-8DD8682BAED1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CDE1C792-FE03-4B0A-8846-EB2940295C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CDE1C792-FE03-4B0A-8846-EB2940295C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDE1C792-FE03-4B0A-8846-EB2940295C38}.Release|Any CPU.ActiveCfg = Release|Any CPU

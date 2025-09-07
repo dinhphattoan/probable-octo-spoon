@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BusinessLogicLayer.DTOs
+namespace HRManagement.BussinessLogic.DTOs
 {
     public sealed record EmployeeDto(
     Guid Id,

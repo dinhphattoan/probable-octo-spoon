@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using HRManagement.Models.Enums;
 using Microsoft.EntityFrameworkCore;
 
-namespace HRMagnement.Models
+namespace HRManagement.Models
 {
     [Index(nameof(JobReferenceCode), IsUnique = true)]
     public class JobPoster

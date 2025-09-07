@@ -1,7 +1,8 @@
-﻿using HRMagnement.DataAccess.Data;
-using HRManagement.Repositories.Base;
+﻿using HRManagement.Repositories.Base;
 using Microsoft.EntityFrameworkCore;
-using HRMagnement.Models;
+using HRManagement.Contacts.Repositories;
+using HRManagement.Models;
+using HRManagement.DataAccess.Data;
 
 namespace HRManagement.DataAccess.Repositories
 {

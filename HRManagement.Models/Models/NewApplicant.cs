@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace HRMagnement.Models
+namespace HRManagement.Models
 {
     public class NewApplicant
     {

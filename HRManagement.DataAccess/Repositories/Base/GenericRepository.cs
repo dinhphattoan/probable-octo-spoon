@@ -1,4 +1,5 @@
-﻿using HRMagnement.DataAccess.Data;
+﻿using HRManagement.Contacts.Repositories;
+using HRManagement.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 namespace HRManagement.Repositories.Base

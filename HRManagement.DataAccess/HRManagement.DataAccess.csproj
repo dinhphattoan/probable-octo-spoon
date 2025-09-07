@@ -17,7 +17,6 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\HRManagement.Models\HRManagement.Models.csproj" />
-		<ProjectReference Include="..\HRManagement.Contacts\HRManagement.Contacts.csproj" />
 	</ItemGroup>
 
 </Project>

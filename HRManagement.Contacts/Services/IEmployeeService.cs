@@ -1,4 +1,4 @@
-using BusinessLogicLayer.DTOs;
+using HRManagement..DTOs;
 
 namespace HRManagement.Contacts.Services;
 

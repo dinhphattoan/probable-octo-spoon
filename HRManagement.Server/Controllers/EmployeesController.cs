@@ -1,6 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using BusinessLogicLayer.DTOs;
-using HRManagement.Contacts.Services;
+﻿using HRManagement.BussinessLogic.Services;
+using Microsoft.AspNetCore.Mvc;
 
 namespace HRMagnement.Server.Controllers
 {
