@@ -26,10 +26,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BusinessLogicLayer\BusinessLogicLayer.csproj" />
-    <ProjectReference Include="..\hrmanagement.client\hrmanagement.client.esproj">
+    <ProjectReference Include="..\BusinessLogicLayer\HRManagement.BusinessLogic.csproj" />
+    <ProjectReference Include="..\hrmanagement.client\HRmanagement.client.esproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+    <ProjectReference Include="..\HRManagement.Contact\HRManagement.Contacts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
   </ItemGroup>
 
 </Project>

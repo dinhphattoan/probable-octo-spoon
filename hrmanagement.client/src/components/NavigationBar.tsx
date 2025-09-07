@@ -28,6 +28,11 @@ class NavigationBar extends Component<NavigationBarProps> {
                             <ListItemText primary={'Home'} />
                         </ListItemButton>
                     </ListItem>
+                    <ListItem key={'Manage Job'} disablePadding>
+                        <ListItemButton component={Link} to="/job-post">
+                            <ListItemText primary={'Manage Job'} />
+                        </ListItemButton>
+                    </ListItem>
                     <ListItem key={'About'} disablePadding>
                         <ListItemButton component={Link} to="/about">
                             <ListItemText primary={'About'} />
