@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:51915",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "C:\\Users\\Tony\\Documents\\HRManagement\\HRManagement.Server\\..\\hrmanagement.client",
+"WorkingDirectory": "C:\\Users\\thefo\\OneDrive\\Documents\\HRManagement\\HRManagement.Server\\..\\hrmanagement.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }
