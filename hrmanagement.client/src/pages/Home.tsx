@@ -5,7 +5,7 @@ class Home extends Component {
     render() {
         return (
             <Box>
-                <h1>Welcome to the Home Page New User!!</h1>
+                <h1>Welcome to the Home Page New User1!!</h1>
             </Box>
         );
     }
