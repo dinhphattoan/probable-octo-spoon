@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import TopAppBar from '../components/TopAppBar';
-import { Accordion, AccordionDetails, AccordionSummary, Modal, Typography } from '@mui/material';
+import { Accordion, AccordionDetails, AccordionSummary, Typography } from '@mui/material';
 import NewJobPostModal from '../Modals/NewJobPostModal';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
