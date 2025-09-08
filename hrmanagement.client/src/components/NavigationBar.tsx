@@ -4,11 +4,12 @@ import { Link } from 'react-router-dom';
 import reactLogo from '/src/assets/react.svg';
 interface NavigationBarProps {
     width: number;
+    isOpen: boolean;
 }
 
 class NavigationBar extends Component<NavigationBarProps> {
     render() {
-        const { width } = this.props;
+        const { width, isOpen } = this.props;
         return (
             <Box sx={{ width }}>
                 <Toolbar>
