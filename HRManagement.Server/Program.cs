@@ -17,7 +17,7 @@ builder.Services.AddAutoMapper(typeof(HRManagement.BussinessLogic.Mapping.Employ
 
 // Business logic services
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
-builder.Services.AddScoped<IEmployeeService,EmployeeService>();
+builder.Services.AddScoped<IEmployeeService, EmployeeService>();
 
 
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
