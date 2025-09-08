@@ -1,4 +1,8 @@
-trigger: none
+trigger:
+  branches:
+    include:
+      - main
+      - develop
 pr:
   branches:
     include:
@@ -18,6 +22,7 @@ stages:
     pool:
       name: Default
     steps:
+    - checkout: self
     - task: NuGetToolInstaller@1
     - task: NuGetCommand@2
       inputs:
